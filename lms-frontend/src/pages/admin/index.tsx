@@ -1,6 +1,6 @@
 import { GetServerSideProps } from 'next';
-import Layout from '@components/Layout';
-import CourseCard from '@components/CourseCard';
+import Layout from '../components/Layout';
+import CourseCard from '../components/CourseCard';
 import Link from 'next/link'; 
 
 interface Course {
